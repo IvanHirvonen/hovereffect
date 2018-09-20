@@ -1,13 +1,22 @@
 @charset "UTF-8";
 .container {
-  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Yrsa', Times New Roman, serif;
+  background-image: url("./Picture/hoverbody.jpg");
+  background-size: cover;
+  background-position: center;
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   grid-gap: 10px;
-  background: #ddd;
-}
+  }
+
+  h1 {
+    color: white;
+    }
+  h2 {
+    color: lightgrey;
+    }
 
 .effect {
   display: flex;
@@ -210,3 +219,11 @@
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
   opacity: 1;
+}
+
+footer {
+  background: #4c4c4c;
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+}
